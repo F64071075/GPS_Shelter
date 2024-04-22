@@ -4,7 +4,7 @@
 ## System Architecture
 * Following is the system architecture
     * ![alt text](image.png)
-    * The end nodes (like raspberry-pi) usually has lower computing ability than server, so end node could collect the GPS datas and then transmit them to the server through LORA wireless protocol.
+    * The end nodes (like raspberry-pi) usually has lower computing ability than server, so end node could collect the GPS datas and then transmit them to the server through LORA wireless protocol, and user can get the datas from server through wire MQTT protocol.
 
 ## How to run it
 * mqtt_request.py : this code is to request the datas that end-devices transmitted
